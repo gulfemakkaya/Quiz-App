@@ -1,0 +1,13 @@
+.body {
+  background-color: ;
+}
+.Header {
+  text-align: center;
+  border: solid 2px gray;
+  padding: 10px;
+  margin: auto;
+}
+
+.Homebutton {
+  background-color: aquamarine;
+}
