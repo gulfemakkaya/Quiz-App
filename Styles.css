@@ -1,13 +1,48 @@
-.body {
-  background-color: ;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-.Header {
-  text-align: center;
-  border: solid 2px gray;
-  padding: 10px;
-  margin: auto;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.Homebutton {
-  background-color: aquamarine;
+.Header {
+  top: 0;
+  text-align: center;
+}
+.Qbox {
+  border: solid 1px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin: 50px;
+}
+.question {
+}
+.checkbox {
+}
+.show__answer {
+  margin: 20px;
+  bottom: 0;
+
+  border-radius: 10px;
+}
+.bookmark-button {
+  position: relative;
+  left: 250px;
+  background: transparent;
+  border: transparent;
+  width: 50px;
+  z-index: 20;
+}
+.crumbs {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
