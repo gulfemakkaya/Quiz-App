@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: bisque;
 }
 
 .Header {
@@ -22,10 +23,10 @@ body {
   width: 500px;
   height: 300px;
   margin: 50px;
-}
-.question {
+  background-color: burlywood;
 }
 .checkbox {
+  justify-content: space-between;
 }
 .show__answer {
   margin: 20px;
@@ -35,12 +36,13 @@ body {
 }
 .bookmark-button {
   position: relative;
-  left: 250px;
+  left: 230px;
   background: transparent;
   border: transparent;
   width: 50px;
   z-index: 20;
 }
+
 .crumbs {
   display: flex;
   justify-content: center;
